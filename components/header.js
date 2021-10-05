@@ -1,8 +1,8 @@
-import React ,{useState}from 'react';
-import { StyleSheet, Text, View,FlatList } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Text, View, FlatList } from 'react-native';
+import styles from '../styles/Component.style';
 
-
-export default function Header(){
+export default function Header() {
     return (
 
         <View style={styles.header}>
@@ -10,26 +10,3 @@ export default function Header(){
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    header:{
-        height:80,
-        paddingTop:38,
-        backgroundColor:'coral',
-
-    },
-    title:{
-        textAlign:'center',
-        fontWeight:'bold',
-        color:'#fff',
-        fontSize:20,
-
-
-
-
-    }
-    
-    
-  
-  
-  });
